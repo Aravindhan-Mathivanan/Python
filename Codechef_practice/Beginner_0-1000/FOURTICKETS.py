@@ -1,10 +1,7 @@
 # cook your dish here
-t = int(input())
-
-for testcases in range(t):
+for t in range(int(input())):
     x = int(input())
-    
-    if (4*x) <= 1000:
-        print('YES')
+    if (4*x) > 1000:
+        print("NO")
     else:
-        print('NO')
+        print("YES")
